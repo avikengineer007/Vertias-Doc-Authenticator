@@ -1,0 +1,11 @@
+[server]
+host = "127.0.0.1"
+port = 8000
+
+[upload]
+max_file_size_mb = 25.0
+allowed_extensions = [".jpg", ".jpeg", ".png", ".tiff", ".bmp"]
+auto_delete_temp_files = true
+
+[forensics]
+ela_quality = 90

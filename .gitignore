@@ -1,0 +1,33 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Packaging & build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output reports & generated heatmaps
+output.json
+report.json
+report_*.json
+output_heatmaps/
+heatmaps/
+output_report.json
+
+# Environment
+env/
+venv/
+.venv/
